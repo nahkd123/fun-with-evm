@@ -1,0 +1,14 @@
+{
+  "name": "@nahkd123/fun-with-evm",
+  "version": "0.0.1",
+  "description": "My attempt at messing around with EVM and smart contracts",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ."
+  },
+  "author": "nahkd123",
+  "license": "GPL-3.0-or-later",
+  "devDependencies": {
+    "@openzeppelin/contracts": "^4.3.0"
+  }
+}
