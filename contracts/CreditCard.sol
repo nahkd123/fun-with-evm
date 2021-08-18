@@ -12,7 +12,7 @@ contract CreditCard is ERC721 {
         counter = 0;
     }
 
-    modifier onlyOwner(uint256 tokenId) { require(ownerOf(tokenId) == msg.sender, "UniqueToken: Sender is not the owner of this token"); _; }
+    modifier onlyOwner(uint256 tokenId) { require(ownerOf(tokenId) == msg.sender, "CreditCard: Sender is not the owner of this token"); _; }
 
     function newCard() public returns (uint256) {
         uint256 tokenId = counter++;
